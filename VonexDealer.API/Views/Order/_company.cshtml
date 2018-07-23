@@ -1,0 +1,47 @@
+﻿@model VonexDealer.API.ViewModels.OrderView
+
+<div id="company" class="row">
+    <div class="col-md-12">
+        <h3>Company</h3>
+    </div>
+    <div class="col-md-12">
+        <table class="table table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Company ID</th>
+                    <th>CompanyName</th>
+
+                    <th>TradingName</th>
+                    <th>EntityType</th>
+                    <th>ABN/ACN</th>
+                    <th>Director - FirstName</th>
+                    <th>Director - Surname</th>
+                    <th>Director - Drivers License</th>
+                    @if (Model.company.isdateOfBirthRequired)
+                    {
+                        <th>Director - DOB</th>
+                    }
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+
+
+                    <td>@Model.company.CompanyID</td>
+                    <td>@Model.company.CompanyName                   </td>
+                    <td>@Model.company.TradingName                   </td>
+                    <td>@Model.company.EntityType                    </td>
+                    <td>@Model.company.ABN    </td>
+                    <td>@Model.company.DirectorGivenName             </td>
+                    <td>@Model.company.DirectorSurname               </td>
+                    <td>@Model.company.DriversLicenseNumber          </td>
+                    @if (Model.company.isdateOfBirthRequired)
+                    {
+                        <td>@Model.company.DateOfBirth.ToString("dd/MM/yyyy")</td>
+                    }
+                </tr>
+            </tbody>
+        </table>
+       
+    </div>
+</div>

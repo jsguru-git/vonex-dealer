@@ -1,0 +1,61 @@
+﻿@model VonexDealer.API.ViewModels.OrderView
+@if (Model.Internets.Count > 0)
+{
+    <div id="internets" class="row">
+        <div class="col-md-12">
+            <h3>Internet</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Type</th>
+                        <th>Service Number</th>
+                        <th>Contract Length</th>
+                        <th>Rate Plan</th>
+                        <th>Address</th>
+
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var net in Model.Internets)
+                    {
+
+                        <tr>
+                            <td>Service</td>
+                            <td>@net.InternetType</td>
+                            <td>@net.ServiceNumber</td>
+                            <td>@net.ContractTerm </td>
+                            <td>@Model.getRatePlanDesc(net.RatePlanID)</td>
+                            <td>
+                                @if (net.AddressID > 0)
+                                {
+                                    @Model.getFormattedAddress(net.AddressID)
+                                }
+                            </td>
+
+
+                        </tr>
+                        @if (net.ContactID > 0)
+                        {
+                            <tr>
+                                <td>Onsite Contact</td>
+                                <td>@Model.getContact(net.ContactID).ContactMobile</td>
+                                <td colspan="2">@Model.getContact(net.ContactID).ContactName</td>
+                                <td colspan="2">@Model.getContact(net.ContactID).ContactEmail</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+                <tfoot>
+
+                </tfoot>
+            </table>
+
+        </div>
+    </div>
+}

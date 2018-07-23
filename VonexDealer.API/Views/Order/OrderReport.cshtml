@@ -1,0 +1,63 @@
+﻿@model VonexDealer.API.ViewModels.OrderView
+@{
+    Layout = "_report";
+}
+
+<div id="HtmlToEmail">
+
+    <div class="row">
+        <div class="col-lg-12">
+            <h1>Order: @Model.order.OrderID</h1>
+        </div>
+    </div>
+    @await Html.PartialAsync("_dealer")
+
+    @await Html.PartialAsync("_customer")
+
+    @if (Model.company != null)
+    {
+        await Html.RenderPartialAsync("_company");
+    }
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Order Details:</h2>
+        </div>
+    </div>
+    @if (Model.order.LandlineID > 0)
+    {
+
+        @await Html.PartialAsync("_landline")
+
+    }
+
+    @if (Model.order.IPOrderID > 0)
+    {
+
+        @await Html.PartialAsync("_ipServices")
+
+    }
+
+    @if (Model.Internets.Count > 0)
+    {
+
+        @await Html.PartialAsync("_internet")
+
+    }
+
+    @if (Model.handsets != null)
+    {
+
+        @await Html.PartialAsync("_hardware")
+
+    }
+
+    <!--then each of the components that make up the order-->
+
+    @if (Model.Notes.Count > 0)
+    {
+        await Html.RenderPartialAsync("_notes");
+    }
+
+
+    @await Html.PartialAsync("_signature")
+</div>

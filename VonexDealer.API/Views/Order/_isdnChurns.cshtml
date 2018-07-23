@@ -1,0 +1,56 @@
+﻿@model VonexDealer.API.ViewModels.OrderView
+<div id="churns" class="row">
+    <div class="col-md-12">
+        <h3>ISDN Churns</h3>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Contract Length (months)</th>
+                    <th>Rate Plan</th>
+                    <th>Range Size</th>
+                    <th>Start Range</th>
+                    <th>GDN</th>
+                    <th>Prime 1</th>
+                    <th>Prime 2</th>
+                    <th>Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                @try
+                           
+                {
+                    @foreach (var service in Model.isdn)
+                    {
+
+                        <tr>
+                            <td>@service.ContractLengthMonths</td>
+                            <td>@Model.getRatePlanDesc(service.RatePlanID)</td>
+                            <td>@service.RangeSize</td>
+                            @for (int i = 0; i < 4; i++)
+                            {
+                                @if (service.Numbers[i] != null)
+                                {
+                                    <td>@service.Numbers[i]</td>
+                                }
+                            }
+                            <td>@Model.getFormattedAddress(service.AddressID)</td>
+                        </tr>
+                    }
+                }
+                catch (Exception)
+                {
+
+                 
+                }
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+        </table>
+
+    </div>
+</div>

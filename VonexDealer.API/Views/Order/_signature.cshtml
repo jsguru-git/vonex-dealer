@@ -1,0 +1,27 @@
+﻿@model VonexDealer.API.ViewModels.OrderView
+
+@if (Model.order.Signature != null)
+{
+
+    <div class="row" id="signature">
+        <div class="col-md-12">
+            <h2>Signature</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <img src="@Model.order.Signature" id="data" />
+
+        </div>
+    </div>
+}
+<div id="custMessage">
+    <a href=@($"https://{Model.FrontEndURL}/approve/" + Model.order.OrderGUID) target="_blank">Click here to open order and sign</a>
+</div>
+
+<style scoped>
+    img{
+        max-height: 100%;
+        max-width:100%;
+    }
+</style>

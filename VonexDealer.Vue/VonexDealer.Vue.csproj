@@ -1,0 +1,201 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup Label="Globals">
+    <SccProjectName>%24/VonexDealer/VonexDealer.Vue</SccProjectName>
+    <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
+    <SccAuxPath>https://alsconsultinggympie.visualstudio.com</SccAuxPath>
+    <SccLocalPath>.</SccLocalPath>
+    <Platforms>AnyCPU;x64</Platforms>
+    <TypeScriptToolsVersion>2.8</TypeScriptToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <UserSecretsId>ff5f8000-7b5f-4e5b-87bd-5d1db88571d5</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="1.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Files not to show in IDE -->
+    <None Remove="yarn.lock" />
+    <Compile Remove="ClientApp\**" />
+
+    <!-- Files not to publish (note that the 'dist' subfolders are re-added below) -->
+    <Content Remove="ClientApp\**" />
+    <EmbeddedResource Remove="ClientApp\**" />
+    <None Remove="ClientApp\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClientApp\components\address-summary.vue" />
+    <None Include="ClientApp\components\app-status.vue" />
+    <None Include="ClientApp\components\contact-modal.vue" />
+    <None Include="ClientApp\components\date-picker.vue" />
+    <None Include="ClientApp\components\edit-dealers.vue" />
+    <None Include="ClientApp\components\app-note.vue" />
+    <None Include="ClientApp\components\create-churn.vue" />
+    <None Include="ClientApp\components\handset-list.vue" />
+    <None Include="ClientApp\components\maintain-handsets.vue" />
+    <None Include="ClientApp\components\maintain-rateplans.vue" />
+    <None Include="ClientApp\components\MessageAlert.vue" />
+    <None Include="ClientApp\components\order-approve.vue" />
+    <None Include="ClientApp\components\summary-section.vue" />
+    <None Include="ClientApp\components\title.vue" />
+    <None Include="ClientApp\models\Contact.js" />
+    <None Include="ClientApp\models\handset.js" />
+    <None Include="ClientApp\models\hardware.js" />
+    <None Include="ClientApp\models\hardwareCategory.js" />
+    <None Include="ClientApp\models\HardwareOrder.js" />
+    <None Include="ClientApp\models\Internet.js" />
+    <None Include="ClientApp\models\ipOrder.js" />
+    <None Include="ClientApp\models\manufacturer.js" />
+    <None Include="ClientApp\models\note.js" />
+    <None Include="ClientApp\models\summary.js" />
+    <None Include="ClientApp\store\modules\forms\handset.js" />
+    <None Include="ClientApp\store\modules\forms\hardware.js" />
+    <None Include="ClientApp\store\modules\forms\Internet.js" />
+    <None Include="ClientApp\store\modules\forms\note.js" />
+    <None Include="ClientApp\store\modules\forms\ratePlan.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ClientApp\components\app-footer.vue" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClientApp\app.js" />
+    <None Include="ClientApp\assets\loading.svg" />
+    <None Include="ClientApp\assets\logo.png" />
+    <None Include="ClientApp\auth\auth.js" />
+    <None Include="ClientApp\auth\auth0-variables.js" />
+    <None Include="ClientApp\boot-app.js" />
+    <None Include="ClientApp\boot-server.js" />
+    <None Include="ClientApp\components\app-header.vue" />
+    <None Include="ClientApp\components\app-notification.vue" />
+    <None Include="ClientApp\components\app-root.vue" />
+    <None Include="ClientApp\components\button-group.vue" />
+    <None Include="ClientApp\components\Callback.vue" />
+    <None Include="ClientApp\components\create-company.vue" />
+    <None Include="ClientApp\components\create-customer.vue" />
+    <None Include="ClientApp\components\create-hardware.vue" />
+    <None Include="ClientApp\components\create-internet.vue" />
+    <None Include="ClientApp\components\create-ipvoice.vue" />
+    <None Include="ClientApp\components\create-mobile.vue" />
+    <None Include="ClientApp\components\create-inbound.vue" />
+    <None Include="ClientApp\components\create-porting.vue" />
+    <None Include="ClientApp\components\customer-address.vue" />
+    <None Include="ClientApp\components\customer-dealer.vue" />
+    <None Include="ClientApp\components\customer-detail.vue" />
+    <None Include="ClientApp\components\customer-login.vue" />
+    <None Include="ClientApp\components\customer-orders.vue" />
+    <None Include="ClientApp\components\dealer-detail.vue" />
+    <None Include="ClientApp\components\fetch-data.vue" />
+    <None Include="ClientApp\components\customer-details.vue" />
+    <None Include="ClientApp\components\Home.vue" />
+    <None Include="ClientApp\components\ipvoice-extensions.vue" />
+    <None Include="ClientApp\components\isdn-churn.vue" />
+    <None Include="ClientApp\components\login.vue" />
+    <None Include="ClientApp\components\nav-menu.vue" />
+    <None Include="ClientApp\components\app-sidebar.vue" />
+    <None Include="ClientApp\components\new-pstn.vue" />
+    <None Include="ClientApp\components\order-create.vue" />
+    <None Include="ClientApp\components\order-state.vue" />
+    <None Include="ClientApp\components\create-pstn.vue" />
+    <None Include="ClientApp\components\order-summary.vue" />
+    <None Include="ClientApp\components\signature-pad.vue" />
+    <None Include="ClientApp\components\vonex-mobile.vue" />
+    <None Include="ClientApp\generate-guid.js" />
+    <None Include="ClientApp\http-common.js" />
+    <None Include="ClientApp\models\Address.js" />
+    <None Include="ClientApp\models\auth.js" />
+    <None Include="ClientApp\models\Churn.js" />
+    <None Include="ClientApp\models\churnService.js" />
+    <None Include="ClientApp\models\Company.js" />
+    <None Include="ClientApp\models\customer.js" />
+    <None Include="ClientApp\models\Dealer.js" />
+    <None Include="ClientApp\models\ChurnServices.js" />
+    <None Include="ClientApp\models\entityType.js" />
+    <None Include="ClientApp\models\httpError.js" />
+    <None Include="ClientApp\models\IPVoiceService.js" />
+    <None Include="ClientApp\models\ISDN.js" />
+    <None Include="ClientApp\models\ISDNChurn.js" />
+    <None Include="ClientApp\models\ISDNChurnService.js" />
+    <None Include="ClientApp\models\Landline.js" />
+    <None Include="ClientApp\models\NewPSTN.js" />
+    <None Include="ClientApp\models\newService.js" />
+    <None Include="ClientApp\models\NewServices.js" />
+    <None Include="ClientApp\models\Order.js" />
+    <None Include="ClientApp\models\orderstate.js" />
+    <None Include="ClientApp\models\ratePlan.js" />
+    <None Include="ClientApp\models\Request.js" />
+    <None Include="ClientApp\models\VonexMobileService.js" />
+    <None Include="ClientApp\router.js" />
+    <None Include="ClientApp\routes.js" />
+    <None Include="ClientApp\store\action-types.js" />
+    <None Include="ClientApp\store\index.js" />
+    <None Include="ClientApp\store\modules\forms\address.js" />
+    <None Include="ClientApp\store\modules\forms\auth.js" />
+    <None Include="ClientApp\store\modules\forms\company.js" />
+    <None Include="ClientApp\store\modules\forms\customer.js" />
+    <None Include="ClientApp\store\modules\forms\dealer.js" />
+    <None Include="ClientApp\store\modules\forms\IPVoice.js" />
+    <None Include="ClientApp\store\modules\forms\Landline.js" />
+    <None Include="ClientApp\store\modules\forms\NewChurn.js" />
+    <None Include="ClientApp\store\modules\forms\NewISDN.js" />
+    <None Include="ClientApp\store\modules\forms\NewPSTN.js" />
+    <None Include="ClientApp\store\modules\forms\newservice.js" />
+    <None Include="ClientApp\store\modules\forms\order.js" />
+    <None Include="ClientApp\store\modules\forms\summary.js" />
+    <None Include="ClientApp\store\modules\orders.js" />
+    <None Include="ClientApp\store\modules\forms\VonexMobile.js" />
+    <None Include="ClientApp\store\mutation-types.js" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\images\banner1.svg" />
+    <None Include="wwwroot\images\banner2.svg" />
+    <None Include="wwwroot\images\banner3.svg" />
+    <None Include="wwwroot\images\banner4.svg" />
+    <None Include="wwwroot\js\moment.min.js" />
+    <None Include="wwwroot\js\offline.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="wwwroot\images\banner1.svg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\banner2.svg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\banner3.svg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\banner4.svg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\chat.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\logo.png">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\profile.jpg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="wwwroot\images\propic.jpg">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+  <Target Name="RunWebpack" AfterTargets="ComputeFilesToPublish">
+    <!-- As part of publishing, ensure the JS resources are freshly built in production mode -->
+    <Exec Command="npm install" />
+    <Exec Command="node node_modules/webpack/bin/webpack.js --config webpack.config.vendor.js --env.prod" />
+    <Exec Command="node node_modules/webpack/bin/webpack.js --env.prod" />
+
+    <!-- Include the newly-built files in the publish output -->
+    <ItemGroup>
+      <DistFiles Include="wwwroot\dist\**; ClientApp\dist\**" />
+      <ResolvedFileToPublish Include="@(DistFiles->'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
+        <RelativePath>%(DistFiles.Identity)</RelativePath>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </ResolvedFileToPublish>
+    </ItemGroup>
+  </Target>
+</Project>

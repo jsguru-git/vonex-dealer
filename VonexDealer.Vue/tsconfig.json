@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": false,
+        "noEmit": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "target": "es2015"
+         
+    },
+    "include": [
+        "./ClientApp/**/*"
+    ],
+    "compileOnSave": true
+}

@@ -1,0 +1,11 @@
+{
+  "presets":   [
+        ["stage-2"],
+        ["es2015",  {"modules": false}]
+    ],
+  "plugins": [
+    "transform-runtime",
+    "transform-async-to-generator"
+  ],
+  "comments": false
+}

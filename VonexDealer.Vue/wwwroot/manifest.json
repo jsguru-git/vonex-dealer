@@ -1,0 +1,17 @@
+{
+    "name": "Sign on Glass",
+    "short_name": "SOG",
+    "description": "Lets get's Vonex out there - always on",
+    "icons": [
+        {
+            "src": "/favicon-16x16.png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/favicon-32x32.png",
+            "sizes": "512x512"
+        }
+    ],
+    "display": "standalone",
+    "start_url": "/"
+}

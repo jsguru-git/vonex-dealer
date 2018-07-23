@@ -1,0 +1,39 @@
+﻿@model VonexDealer.API.ViewModels.OrderView
+@if (Model.hardware != null)
+{
+    <div id="hardware" class="col-md-12">
+        <h3>Hardware</h3>
+        <div class="col-md-12">
+            <table class="table table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Quantity</th>
+                        <th>Equipment</th>
+                        <th>Cost</th>
+                        <th>Comment</th>
+                        <th>Amount</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var ext in Model.hardware)
+                    {
+                      
+                        <tr>
+                            <td>@ext.Quantity</td>
+                            <td>@Model.getHandsetDescription(ext.HandsetID)</td>
+                            <td>@ext.Cost</td>
+                            <td>@ext.Comment</td>
+                            <td>@ext.LineTotal</td>
+
+                        </tr>
+                    }
+                </tbody>
+                <tfoot>
+
+                </tfoot>
+            </table>
+
+        </div>
+    </div>
+}

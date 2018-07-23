@@ -1,0 +1,9 @@
+D:\VonexDealer\Fiver.Api.HttpClient\bin\Debug\netstandard2.0\Fiver.Api.HttpClient.deps.json
+D:\VonexDealer\Fiver.Api.HttpClient\bin\Debug\netstandard2.0\Fiver.Api.HttpClient.dll
+D:\VonexDealer\Fiver.Api.HttpClient\bin\Debug\netstandard2.0\Fiver.Api.HttpClient.pdb
+D:\VonexDealer\Fiver.Api.HttpClient\obj\Debug\netstandard2.0\Fiver.Api.HttpClient.csprojResolveAssemblyReference.cache
+D:\VonexDealer\Fiver.Api.HttpClient\obj\Debug\netstandard2.0\Fiver.Api.HttpClient.csproj.CoreCompileInputs.cache
+D:\VonexDealer\Fiver.Api.HttpClient\obj\Debug\netstandard2.0\Fiver.Api.HttpClient.AssemblyInfoInputs.cache
+D:\VonexDealer\Fiver.Api.HttpClient\obj\Debug\netstandard2.0\Fiver.Api.HttpClient.AssemblyInfo.cs
+D:\VonexDealer\Fiver.Api.HttpClient\obj\Debug\netstandard2.0\Fiver.Api.HttpClient.dll
+D:\VonexDealer\Fiver.Api.HttpClient\obj\Debug\netstandard2.0\Fiver.Api.HttpClient.pdb

@@ -1,0 +1,21 @@
+﻿@model VonexDealer.API.ViewModels.OrderView
+
+<div class="row">
+    <div class="col-md-12">
+        <h3>Fixed Line</h3>
+    </div>
+</div>
+
+@if (Model.churns != null)
+{
+    await Html.RenderPartialAsync("_pstnChurns");
+}
+
+@if (Model.newServices != null)
+{
+    await Html.RenderPartialAsync("_newServices");
+}
+@if (Model.isdn != null)
+{
+    await Html.RenderPartialAsync("_isdnChurns");
+}

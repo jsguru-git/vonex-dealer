@@ -1,0 +1,1158 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VonexDealer.API</name>
+    </assembly>
+    <members>
+        <member name="T:wsUtbCustomer.invalidLoginExceptionBean">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.invalidLoginExceptionBean.message">
+            <remarks/>
+        </member>
+        <member name="T:wsUtbCustomer.wsrCreditCardType">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCreditCardType.cardCode">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCreditCardType.cardDescription">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCreditCardType.cardName">
+            <remarks/>
+        </member>
+        <member name="T:wsUtbCustomer.wsrPaymentGateway">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrPaymentGateway.billerCode">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrPaymentGateway.ccFormatMonth">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrPaymentGateway.ccFormatYear">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrPaymentGateway.creditCardTypes">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrPaymentGateway.gatewayCode">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrPaymentGateway.gatewayName">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrPaymentGateway.ifActiveDirectDebit">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrPaymentGateway.ifActiveGroupGateway">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrPaymentGateway.ifActiveTokenPayment">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrPaymentGateway.ifCCNameSeparate">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrPaymentGateway.ifEnabledPaymentGateway">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrPaymentGateway.ifSupportedBpay">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrPaymentGateway.ifSupportedDirectPaymentBank">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrPaymentGateway.ifSupportedDirectPaymentCC">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrPaymentGateway.ifSupportedTokenPayment">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrPaymentGateway.ifTesting">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrPaymentGateway.tokenCustomerID">
+            <remarks/>
+        </member>
+        <member name="T:wsUtbCustomer.wsrConfiguration">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrConfiguration.custNo">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrConfiguration.groupName">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrConfiguration.groupNo">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrConfiguration.ifCategorizeUnbilled">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrConfiguration.paymentGateway">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrConfiguration.refINISettings">
+            <remarks/>
+        </member>
+        <member name="T:wsUtbCustomer.wsrConfigurationEntry">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrConfigurationEntry.key">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrConfigurationEntry.value">
+            <remarks/>
+        </member>
+        <member name="T:wsUtbCustomer.wsBase">
+            <remarks/>
+        </member>
+        <member name="T:wsUtbCustomer.wsBillSetup">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsBillSetup.custno">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsBillSetup.ifInboundReporting">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsBillSetup.ifToIgnoreMinimumThreshold">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsBillSetup.isReminderOff">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsBillSetup.itemization">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsBillSetup.output">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsBillSetup.reports">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsBillSetup.suspendDate">
+            <remarks/>
+        </member>
+        <member name="T:wsUtbCustomer.wsrUpdatedCustomers">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrUpdatedCustomers.batchno">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrUpdatedCustomers.custno">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrUpdatedCustomers.customerCount">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrUpdatedCustomers.fromDate">
+            <remarks/>
+        </member>
+        <member name="T:wsUtbCustomer.wsrBillSetup">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrBillSetup.custno">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrBillSetup.ifInboundReporting">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrBillSetup.ifToIgnoreMinimumThreshold">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrBillSetup.isReminderOff">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrBillSetup.itemization">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrBillSetup.output">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrBillSetup.reports">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrBillSetup.rollupCode">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrBillSetup.suspendDate">
+            <remarks/>
+        </member>
+        <member name="T:wsUtbCustomer.wsrCustomer">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.abn">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.acn">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.address">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.address2">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.agent_id">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.ahPhone">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.alt_customer_id">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.ap">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.bank_account_name">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.bank_account_no">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.bank_bsb">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.bank_name">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.bounce_fees_bank_amt">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.bounce_fees_cc_amt">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.bounce_fees_override">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.call_spend">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.category_status_credit">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.category_status_customer">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.cc_surcharge_amex">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.cc_surcharge_diners">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.cc_surcharge_mastercard">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.cc_surcharge_override">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.cc_surcharge_visa">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.company">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.contact_fax">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.contract_end">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.contract_start">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.contract_term">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.council">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.credit_card_expiry">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.credit_card_name">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.credit_card_no">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.credit_card_type">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.custAuthorityNo">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.custAuthorityType">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.custNo">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.custType">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.direct_debit_method">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.dob">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.email">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.email_alternate">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.errorDescription">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.firstName">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.groupNo">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.groupRef">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.internetAccess">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.isError">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.mobile">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.noLatePaymentFee">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.noReminder">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.notes">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.password">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.paymentGateway">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.paymentGatewayEnabled">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.paymentGatewayName">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.payment_method">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.phone">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.planNo">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.postcode">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.printBill">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.sal">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.state">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.suburb">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.surname">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.tempPassword">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.tokenCustomerID">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomer.tradingName">
+            <remarks/>
+        </member>
+        <member name="T:wsUtbCustomer.wsCustomer">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.abn">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.acn">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.address">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.address2">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.agent_id">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.ahPhone">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.alt_customer_id">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.ap">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.bank_account_name">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.bank_account_no">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.bank_bsb">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.bank_name">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.bounce_fees_bank_amt">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.bounce_fees_cc_amt">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.bounce_fees_override">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.call_spend">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.category_status_credit">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.category_status_customer">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.cc_surcharge_amex">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.cc_surcharge_diners">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.cc_surcharge_mastercard">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.cc_surcharge_override">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.cc_surcharge_visa">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.company">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.contact_fax">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.contract_end">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.contract_start">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.contract_term">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.council">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.credit_card_authority">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.credit_card_expiry">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.credit_card_name">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.credit_card_no">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.credit_card_type">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.custAuthorityNo">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.custAuthorityType">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.custNo">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.custType">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.direct_debit_method">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.dob">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.email">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.emailPdf">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.email_alternate">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.firstName">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.groupNo">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.groupRef">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.if_permanent">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.internetAccess">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.mobile">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.noLatePaymentFee">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.noReminder">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.notes">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.password">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.payment_method">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.phone">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.planNo">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.postcode">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.printBill">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.require_count">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.sal">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.sms_reminder_1">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.special_amount">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.special_payment_method">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.special_payment_type">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.special_weekday">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.state">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.suburb">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.suggested_dd_date">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.surname">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.tempPassword">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.tempPasswrodUpdateOnlyFlag">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsCustomer.tradingName">
+            <remarks/>
+        </member>
+        <member name="T:wsUtbCustomer.wsrCustomerAlert">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomerAlert.datetime">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomerAlert.notes">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomerAlert.type">
+            <remarks/>
+        </member>
+        <member name="T:wsUtbCustomer.wsrCustomerAlerts">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomerAlerts.alerts">
+            <remarks/>
+        </member>
+        <member name="T:wsUtbCustomer.wsLogin">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsLogin.password">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsLogin.userName">
+            <remarks/>
+        </member>
+        <member name="T:wsUtbCustomer.processingExceptionBean">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.processingExceptionBean.message">
+            <remarks/>
+        </member>
+        <member name="T:wsUtbCustomer.invalidParameterExceptionBean">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.invalidParameterExceptionBean.badParamaters">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.invalidParameterExceptionBean.badParametersAsString">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.invalidParameterExceptionBean.message">
+            <remarks/>
+        </member>
+        <member name="T:wsUtbCustomer.wsrDirectDebit">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrDirectDebit.bank_account_name">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrDirectDebit.bank_account_no">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrDirectDebit.bank_bsb">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrDirectDebit.bank_name">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrDirectDebit.credit_card_expiry">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrDirectDebit.credit_card_name">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrDirectDebit.credit_card_no">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrDirectDebit.credit_card_type">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrDirectDebit.custNo">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrDirectDebit.direct_debit_method">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrDirectDebit.errorDescription">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrDirectDebit.payment_method">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrDirectDebit.special_amount">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrDirectDebit.special_payment_method">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrDirectDebit.special_payment_type">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrDirectDebit.special_weekday">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrDirectDebit.suggested_dd_date">
+            <remarks/>
+        </member>
+        <member name="T:wsUtbCustomer.wsrCustomerAccountLogin">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomerAccountLogin.custNo">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomerAccountLogin.email">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomerAccountLogin.encryptionStatus">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomerAccountLogin.encryptionStatusSpecified">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomerAccountLogin.password">
+            <remarks/>
+        </member>
+        <member name="P:wsUtbCustomer.wsrCustomerAccountLogin.tokenId">
+            <remarks/>
+        </member>
+        <member name="M:WebApplication2.Controllers.AccountController.Claims">
+            <summary>
+            This is just a helper action to enable you to easily see all claims related to a user. It helps when debugging your
+            application to see the in claims populated from the Auth0 ID Token
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.CustomerController.GetCustomerAsync(System.Int64)">
+            <summary>
+            Get Customer details
+            </summary>
+            <param name="CustomerID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.CustomerController.GetAddressAsync(System.Int64)">
+            <summary>
+            Get a single address record
+            </summary>
+            <param name="AddressID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.CustomerController.GetAllCustomerAddressAsync(System.Int64)">
+            <summary>
+            Get a all customer address on record
+            </summary>
+            <param name="customerID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.CustomerController.GetDealerCustomersAsync(System.Int64)">
+            <summary>
+            Get dealers Customers.
+            </summary>
+            <param name="dealerID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.CustomerController.AddAddressToCustomerAsync(System.Int64,VonexDealer.API.Models.Order.Address)">
+            <summary>
+            Add address to existing customer.
+            Or if custID == 0 then add a global address.
+            </summary>
+            <param name="custID"></param>
+            <param name="address"></param>
+            <returns>Customer Object</returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.LandlineController.GetChurnsOnOrderAsync(System.Int64)">
+            <summary>
+            Get Churns summary details for order.
+            </summary>
+            <param name="orderID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.LandlineController.AddChurns(System.Int64,VonexDealer.API.Models.Order.Churn[])">
+            <summary>
+            Add churn to an existing landline order.
+            </summary>
+            <param name="landlineID"></param>
+            <param name="churns"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.LandlineController.UpdateChurn(System.Int64,VonexDealer.API.Models.Order.Churn)">
+            <summary>
+            Update churn data
+            </summary>
+            <param name="churnID"></param>
+            <param name="churn"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.LandlineController.RemoveChurn(System.Int64)">
+            <summary>
+            Remove churn from DB
+            </summary>
+            <param name="churnID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.LandlineController.GetLandlinesOnOrderAsync(System.Int64)">
+            <summary>
+            Get Landline summary details for order.
+            </summary>
+            <param name="orderID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.LandlineController.AddLandLines(VonexDealer.API.Models.Order.Landline)">
+            <summary>
+            Add a single landline to DB (not to order)
+            </summary>
+            <param name="landline"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.LandlineController.UpdateLandline(System.Int64,VonexDealer.API.Models.Order.Landline)">
+            <summary>
+            Update landline data
+            </summary>
+            <param name="landlineID"></param>
+            <param name="landline"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.LandlineController.RemoveLandline(System.Int64)">
+            <summary>
+            Remove landline from DB
+            </summary>
+            <param name="landlineID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.LandlineController.GetISDNsOnOrderAsync(System.Int64)">
+            <summary>
+            Get ISDNs summary details for order.
+            </summary>
+            <param name="orderID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.LandlineController.AddISDNs(System.Int64,VonexDealer.API.Models.Order.ISDN[])">
+            <summary>
+            Add isdn churn to order
+            </summary>
+            <param name="landlineID"></param>
+            <param name="isdn"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.LandlineController.UpdateISDN(System.Int64,VonexDealer.API.Models.Order.ISDN)">
+            <summary>
+            Update isdn data
+            </summary>
+            <param name="isdnID"></param>
+            <param name="isdn"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.LandlineController.RemoveISDN(System.Int64)">
+            <summary>
+            Remove isdn from DB
+            </summary>
+            <param name="isdnID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.LandlineController.GetNewPSTNsOnOrderAsync(System.Int64)">
+            <summary>
+            Get NewPSTNs summary details for order.
+            </summary>
+            <param name="orderID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.LandlineController.AddNewPSTNs(System.Int64,VonexDealer.API.Models.Order.NewPSTN[])">
+            <summary>
+            Add a single newPSTN to DB (not to order)
+            </summary>
+            <param name="newPSTN"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.LandlineController.UpdateNewPSTN(System.Int64,VonexDealer.API.Models.Order.NewPSTN)">
+            <summary>
+            Update newPSTN data
+            </summary>
+            <param name="newPSTNID"></param>
+            <param name="newPSTN"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.LandlineController.RemoveNewPSTN(System.Int64)">
+            <summary>
+            Remove newPSTN from DB
+            </summary>
+            <param name="newPSTNID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.OrderController.AddCompanyToOrderAsync(System.Int64,VonexDealer.API.Models.Order.Company)">
+            <summary>
+            Add new Company to existing Order
+            </summary>
+            <param name="orderID"></param>
+            <param name="company"></param>
+            <returns>Order Object or null if error.</returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.OrderController.AddCustomerToOrderAsync(System.Int64,VonexDealer.API.Models.Order.Customer)">
+            <summary>
+            add new customer to order.
+            This will also create customer on database.
+            </summary>
+            <param name="orderID"></param>
+            <param name="customer"></param>
+            <returns>Order Object or null if error.</returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.OrderController.CreateOrder(VonexDealer.API.Models.Order.Order)">
+            <summary>
+            This endpoint will create an empty order - with dealerID.
+            </summary>
+            <param name="order"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.OrderController.AddOrderAsync(System.Int64,VonexDealer.API.Models.Order.Order)">
+            <summary>
+            Create empty stub for order
+            </summary>
+            <param name="order"></param>
+            <returns>order Objec or null if error.</returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.OrderController.AddCompany(VonexDealer.API.Models.Order.Company)">
+            <summary>
+            Add Company
+            </summary>
+            <param name="company"></param>
+            <returns>Company</returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.OrderController.getDealerAsync(System.Int64)">
+            <summary>
+            get Dealer info by ID
+            </summary>
+            <param name="dealerID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.OrderController.getLoggedInDealerAsync">
+            <summary>
+            Get's the logged in dealer details.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.OrderController.DeleteCompanyFromOrderAsync(System.Int64,System.Int64)">
+            <summary>
+            provide company details to remove company from customer on order.
+            </summary>
+            <param name="orderID"></param>
+            <param name="companyID"></param>
+            <returns>Order Object</returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.OrderController.ListHandsets(System.Int64,System.Int64)">
+            <summary>
+            Central repository of all available hardware from Vonex.
+            </summary>
+            <param name="categoryID"></param>
+            <param name="manufacturerID"></param>
+            <returns>Handset object.</returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.OrderController.getOrders(System.Int64)">
+            <summary>
+            Retrieve all existing orders
+            Enter an order ID or, use 0 to retrieve all of them.
+            </summary>
+            <param name="orderID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.OrderController.GetIPExtensions(System.Int64)">
+            <summary>
+            Get Ip Extensions on order.
+            </summary>
+            <param name="orderID"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.TotalCheckController.ValidateABN(VonexDealer.API.Models.TotalCheck.AbnEnhanced.SearchParameters)">
+            <summary>
+            Validate ABN by name
+            </summary>
+            <param name="searchParameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.TotalCheckController.ValidateABNFromID(System.String)">
+            <summary>
+            Validate a company details via entering ABN
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Controllers.TotalCheckController.ValidateAddress(VonexDealer.API.Models.TotalCheck.TCAddress.SearchParameters)">
+            <summary>
+            Get the validated details of a customer address
+            </summary>
+            <param name="searchParameters"></param>
+            <returns></returns>
+        </member>
+        <member name="T:VonexDealer.API.Models.Order.Address">
+            <summary>
+            this data should be collected from TotalCheck verification process - TCAddress
+            </summary>
+        </member>
+        <member name="T:VonexDealer.API.Models.Order.Dealer">
+            <summary>
+            Existing Dealer information taken from Utilibill and OMS system.
+            </summary>
+        </member>
+        <member name="T:VonexDealer.API.Models.Order.DirectDebit">
+            <summary>
+            Storage of customer bank details may beed to be altered.
+            This should only be a temporary store that will transfer to UB for proper storage.
+            </summary>
+        </member>
+        <member name="T:VonexDealer.API.Models.Order.Handset">
+            <summary>
+            Handset details for purchase, dealer and customer.
+            </summary>
+        </member>
+        <member name="P:VonexDealer.API.Models.Order.Handset.Description">
+            <summary>
+            use this value to order screen to show model.
+            </summary>
+        </member>
+        <member name="P:VonexDealer.API.Models.Order.Handset.HardwareCategoryID">
+            <summary>
+            exclude Dealerprice from customerview
+            </summary>
+        </member>
+        <member name="T:VonexDealer.API.Models.Order.HardwareCategory">
+            <summary>
+            List of categories for breakup of list
+            </summary>
+        </member>
+        <member name="P:VonexDealer.API.Models.Order.IPExtension.ExtensionNo">
+            <summary>
+            starting at 500
+            </summary>
+        </member>
+        <member name="T:VonexDealer.API.Models.Order.CallHandling">
+            <summary>
+            Call Handling options for form submission.
+            </summary>
+        </member>
+        <member name="T:VonexDealer.API.Models.Order.Manufacturer">
+            <summary>
+            QA list of Manufacturers.
+            </summary>
+        </member>
+        <member name="T:VonexDealer.API.Models.Order.Order">
+            <summary>
+            Order will be comprised of multiple sections as per the original pdf document
+            customer details - which incorprate Company
+            IP order details
+            Hardware order details
+            PSTN(landline) Details
+            Internet Details
+            Porting Authority
+            </summary>
+        </member>
+        <member name="P:VonexDealer.API.Models.Order.Order.IPOrderID">
+            <summary>
+            delivery address infomation
+            </summary>
+        </member>
+        <member name="M:VonexDealer.API.Repository.CustomerRepository.AddAddressToCustomerAsync(System.Int64,VonexDealer.API.Models.Order.Address)">
+            <summary>
+            add's address to customer.
+            </summary>
+            <param name="custID"></param>
+            <param name="address"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Repository.CustomerRepository.addCustomerToUBAsync(VonexDealer.API.Models.Order.Customer)">
+            <summary>
+            Add a validated customer to UB
+            </summary>
+            <param name="cust"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Repository.CustomerRepository.UpdateCustomerAsync(System.Int64,VonexDealer.API.Models.Order.Customer)">
+            <summary>
+            Update base Customer record details only,
+            if connected records to be updated, they need to be called separately.
+            </summary>
+            <param name="customerID"></param>
+            <param name="customer"></param>
+            <returns></returns>
+        </member>
+        <member name="T:VonexDealer.API.Repository.Orders.IOrderRepository">
+            <summary>
+            
+            The following actions are to comprise the entire functionality of the interface to orders
+            All the edits made to an order are to be asyncronous and each module is to be separate, but
+            also able to be combined as a complete order.
+            
+            create order
+            add/update/delete
+            customer to order
+            company to order
+            landline to order
+            IPOrder to order
+            internet to order
+            mobile to order
+            inbound to order
+            PAF to order
+            notes to order
+            
+            </summary>
+            
+        </member>
+        <member name="M:VonexDealer.API.Repository.Orders.OrderRepository.loggedInDealerID(System.Security.Claims.ClaimsPrincipal)">
+            <summary>
+            get the dealerID of the logged in user.
+            </summary>
+            <param name="dealer"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Repository.Orders.OrderRepository.loggedInDealerEmail(System.Security.Claims.ClaimsPrincipal)">
+            <summary>
+            Loggged in dealer email.
+            </summary>
+            <param name="dealer"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Repository.Orders.OrderRepository.SendEmailAsync(VonexDealer.API.Models.Order.Message,System.Security.Claims.ClaimsPrincipal)">
+            <summary>
+            create email with order details - send to dealer email. 
+            And also send to helpdesk.
+            </summary>
+            <param name="email"></param>
+            <param name="dealer"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Repository.Supporting.ISupport.UpdateHandsets(System.Collections.Generic.List{VonexDealer.API.Models.Order.Handset})">
+            <summary>
+            Submit list of handsets to be created/updated.
+            </summary>
+            <param name="handsets"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VonexDealer.API.Repository.Supporting.ISupport.UpdateRatePlansAsync(System.Collections.Generic.List{VonexDealer.API.Models.UB.RatePlan})">
+            <summary>
+            Sublist list of RatePlans to be created/updated
+            </summary>
+            <param name="RatePlans"></param>
+            <returns></returns>
+        </member>
+        <member name="T:VonexDealer.API.Repository.IUtilibill">
+            <summary>
+            Interface to Utilibill
+            this interface provides ability to log into UB
+            create a customer
+            retrieve a cunstomer
+            add direct debit info
+            
+            </summary>
+        </member>
+        <member name="T:VonexDealer.API.Tests.Orders.OrderTests">
+            <summary>
+            all the tests for IOrderRepository
+            </summary>
+        </member>
+    </members>
+</doc>

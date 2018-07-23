@@ -1,0 +1,36 @@
+﻿@model VonexDealer.API.ViewModels.OrderView
+<div id="churns" class="row">
+    <div class="col-md-12">
+        <h3>PSTN Churns</h3>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Service Number</th>
+                    <th>Contract Period (months)</th>
+                    <th>RatePlan</th>
+                    <th>Street Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var churn in Model.churns)
+                {
+
+                    <tr>
+                        <td>@churn.ServiceNumber</td>
+                        <td>@churn.ContractPeriod</td>
+                        <td>@Model.getRatePlanDesc(churn.RatePlanID)</td>
+                        <td>@churn.FormattedAddress</td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+        </table>
+
+    </div>
+</div>

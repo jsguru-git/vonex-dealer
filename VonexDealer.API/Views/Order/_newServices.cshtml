@@ -1,0 +1,43 @@
+﻿@model VonexDealer.API.ViewModels.OrderView
+<div class="row">
+    <div class="col-md-12">
+        <h3>New PSTN Services</h3>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Termination</th>
+                    <th>Contract Length</th>
+                    <th>RatePlan</th>
+                    <th>Street Address</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var service in Model.newServices)
+                {
+
+                    <tr>
+                        @if (service.Termination == "1")
+                        {
+                            <td>Socket</td>
+                        }
+                        else
+                        {
+                            <td>MDF</td>
+
+                        }
+                        <td>@service.ContractPeriod</td>
+                        <td>@Model.getRatePlanDesc(service.RatePlanID)</td>
+                        <td>@Model.getFormattedAddress(service.AddressID)</td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+        </table>
+    </div>
+</div>

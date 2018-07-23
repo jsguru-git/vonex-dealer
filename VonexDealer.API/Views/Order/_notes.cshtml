@@ -1,0 +1,32 @@
+﻿@model VonexDealer.API.ViewModels.OrderView
+
+
+@if (Model.Notes.Count > 0)
+{
+
+
+    <div class="row">
+        <div class="col-lg-12">
+            <h1>Notes:</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Section</th>
+                        <th>Note</th>
+                    </tr>
+                </thead>
+                @foreach (var note in Model.Notes) //.Where(x => x.Component == "CreateCustomer").ToList())
+                {
+                    <tr>
+                        <td>@note.Component</td>
+                        <td>@note.NoteText</td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+}

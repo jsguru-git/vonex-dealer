@@ -1,0 +1,53 @@
+﻿@model VonexDealer.API.ViewModels.OrderView
+
+<div id="customer" class="row">
+    <div class="col-md-12">
+        @if (Model.order.CustomerDetails.CompanyID == 0)
+        {
+        <h3>Customer</h3>
+
+        }
+        else
+        {
+        <h3>Authorised Representative</h3>
+
+
+        }
+    </div>
+    <div class="col-md-12">
+
+        <table class="table table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>CustomerID</th>
+                    <th>Vonex Acc Number</th>
+
+                    <th>FirstName</th>
+                    <th>Surname</th>
+                    <th>Phone</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                    <th>Address</th>
+                    <th>Date Of Birth</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>@Model.order.CustomerDetails.CustomerID</td>
+                    <td>@Model.order.CustomerDetails.UBAccountNo</td>
+                    <td>@Model.order.CustomerDetails.FirstName</td>
+                    <td>@Model.order.CustomerDetails.Surname</td>
+                    <td>@Model.order.CustomerDetails.Phone </td>
+                    <td>@Model.order.CustomerDetails.Mobile</td>
+                    <td>@Model.order.CustomerDetails.Email</td>
+                    <td>@Model.getFormattedAddress(Model.Addresses[0].AddressID )</td>
+                    <td>@Model.order.CustomerDetails.DOB.ToString("dd/MM/yyyy")</td>
+
+                </tr>
+            </tbody>
+        </table>
+
+     
+
+    </div>
+</div>

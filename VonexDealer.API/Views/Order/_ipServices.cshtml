@@ -1,0 +1,49 @@
+﻿@model VonexDealer.API.ViewModels.OrderView
+@if (Model.iPExtensions.Count > 0)
+{
+    <div id="churns" class="row">
+        <div class="col-md-12">
+            <h3>IP Services</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Extension</th>
+                        <th>Name</th>
+                        <th>Handset</th>
+                        <th>Contract Length</th>
+                        <th>Rate Plan</th>
+                        <th>ANI</th>
+                        <th>Email</th>
+                        <th>Mobile</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var ext in Model.iPExtensions)
+                    {
+
+                        <tr>
+                            <td>@ext.ExtensionNo</td>
+                            <td>@ext.ExtensionName</td>
+                            <td>@Model.getHandset(ext.HandsetID).Model </td>
+                            <td>@ext.contractLengthMonths</td>
+                            <td>@Model.getRatePlanDesc(ext.RatePlanID)</td>
+                            <td>@ext.OutboundANI</td>
+                            <td>@ext.VoicemailEmail</td>
+                            <td>@ext.MobileTwinning</td>
+
+                        </tr>
+                    }
+                </tbody>
+                <tfoot>
+
+                </tfoot>
+            </table>
+
+        </div>
+    </div>
+}

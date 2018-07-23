@@ -1,0 +1,25 @@
+﻿@model VonexDealer.API.ViewModels.OrderView
+
+<div class="row">
+    <div class="col-md-12">
+        <h3>Dealer</h3>
+    </div>
+    <div class="col-md-12">
+        <table class="table table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Dealer ID</th>
+                    <th>Email</th>
+                    <th>Full Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>@Model.dealer.DealerID</td>
+                    <td>@Model.dealer.DealerEmail</td>
+                    <td>@Model.dealer.DealerFullName</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

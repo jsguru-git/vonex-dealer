@@ -1,0 +1,24 @@
+D:\VonexDealer\VonexDealer.API\obj\Debug\netcoreapp2.0\VonexDealer.API.csprojResolveAssemblyReference.cache
+D:\VonexDealer\VonexDealer.API\obj\Debug\netcoreapp2.0\VonexDealer.API.csproj.CoreCompileInputs.cache
+D:\VonexDealer\VonexDealer.API\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\VonexDealer\VonexDealer.API\obj\Debug\netcoreapp2.0\VonexDealer.API.AssemblyInfoInputs.cache
+D:\VonexDealer\VonexDealer.API\obj\Debug\netcoreapp2.0\VonexDealer.API.AssemblyInfo.cs
+D:\VonexDealer\VonexDealer.API\bin\Debug\netcoreapp2.0\appsettings.Development.json
+D:\VonexDealer\VonexDealer.API\bin\Debug\netcoreapp2.0\appsettings.json
+D:\VonexDealer\VonexDealer.API\bin\Debug\netcoreapp2.0\Data\Seed\customers.json
+D:\VonexDealer\VonexDealer.API\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\VonexDealer\VonexDealer.API\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+D:\VonexDealer\VonexDealer.API\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+D:\VonexDealer\VonexDealer.API\bin\Debug\netcoreapp2.0\lib\wkhtmltox\32 bit\libwkhtmltox.dll
+D:\VonexDealer\VonexDealer.API\bin\Debug\netcoreapp2.0\lib\wkhtmltox\64 bit\libwkhtmltox.dll
+D:\VonexDealer\VonexDealer.API\bin\Debug\netcoreapp2.0\appsettings.Production.json
+D:\VonexDealer\VonexDealer.API\bin\Debug\netcoreapp2.0\VonexDealer.API.xml
+D:\VonexDealer\VonexDealer.API\bin\Debug\netcoreapp2.0\VonexDealer.API.deps.json
+D:\VonexDealer\VonexDealer.API\bin\Debug\netcoreapp2.0\VonexDealer.API.runtimeconfig.json
+D:\VonexDealer\VonexDealer.API\bin\Debug\netcoreapp2.0\VonexDealer.API.runtimeconfig.dev.json
+D:\VonexDealer\VonexDealer.API\bin\Debug\netcoreapp2.0\VonexDealer.API.dll
+D:\VonexDealer\VonexDealer.API\bin\Debug\netcoreapp2.0\VonexDealer.API.pdb
+D:\VonexDealer\VonexDealer.API\bin\Debug\netcoreapp2.0\Fiver.Api.HttpClient.dll
+D:\VonexDealer\VonexDealer.API\bin\Debug\netcoreapp2.0\Fiver.Api.HttpClient.pdb
+D:\VonexDealer\VonexDealer.API\obj\Debug\netcoreapp2.0\VonexDealer.API.dll
+D:\VonexDealer\VonexDealer.API\obj\Debug\netcoreapp2.0\VonexDealer.API.pdb

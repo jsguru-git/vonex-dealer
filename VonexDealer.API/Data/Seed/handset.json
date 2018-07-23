@@ -1,0 +1,67 @@
+﻿
+  [
+    {
+      "model": "T19P",
+      "Description": "132x64-pixel graphical LCD Two-port 10/100 Ethernet Switch PoE support,Headset support, Wall Mountable",
+      "ImagePath": "http://www.yealink.com/upfiles/products/201707/1499853576565.jpg",
+      "RetailCost": "169",
+      "DealerPrice": "70.40",
+      "HardwareCategoryID": 1,
+      "ManufacturerDetailsID": 1
+    },
+    {
+      "model": "T21P",
+      "Description": "Yealink HD Voice,132x64-pixel graphical LCD with backlight Two-port 10/100M Ethernet Switch PoE support, 6 navigation and 6 Feature keys",
+      "ImagePath": "http://support.yealink.com/upload/phoneModelImg/T21P.jpg",
+      "RetailCost": "180",
+      "DealerPrice": "82.50",
+      "HardwareCategoryID": 1,
+      "ManufacturerDetailsID": 1
+    },
+    {
+      "model": "T23G",
+      "Description": "Yealink HD Voice,132x64-pixel graphical LCD, supports Dual Color LED's, 3 Line Keys Two-port 10/100M Ethernet Switch PoE support, 6 navigation and 5 Feature keys",
+      "ImagePath": "http://support.yealink.com/upload/phoneModelImg/T23G.jpg",
+      "RetailCost": "206",
+      "DealerPrice": "111.10",
+      "HardwareCategoryID": 1,
+      "ManufacturerDetailsID": 1
+    },
+    {
+      "model": "T29G",
+      "Description": "6 Line IP phone, 480x272 LCD, 27 Program keys/BLF/XML/PoE/HDV/EHS support/Dual Gigabit Ports. 1 USB Port for BT40.",
+      "ImagePath": "http://support.yealink.com/upload/phoneModelImg/T29G.jpg",
+      "RetailCost": "169",
+      "DealerPrice": "199.10",
+      "HardwareCategoryID": 1,
+      "ManufacturerDetailsID": 1
+    },
+    {
+      "model": "T40P",
+      "Description": "IP Phone (with POE) 3 VoIP accounts, HD Voice: HD Codec, HD speaker, HD handset, Full-duplex speakerphone, IPv6, Dual port RJ45100Base-TX fast Ethernet, 2.3” 132x64 pixel 3-lINE grayscale graphical LCD with backlight",
+      "ImagePath": "http://support.yealink.com/upload/phoneModelImg/T40P.jpg",
+      "RetailCost": "169",
+      "DealerPrice": "115.50",
+      "HardwareCategoryID": 1,
+      "ManufacturerDetailsID": 1
+    },
+    {
+      "model": "T41S",
+      "Description": "IP Phone (with POE) 3 VoIP accounts, HD Voice: HD Codec, HD speaker, HD handset, Full-duplex speakerphone, IPv6, 2xRJ45 10/100Mbps ports, 2.7” 192x64 pixel 4-level grayscale graphical LCD with backlight, Up to 15 Paperless DDS Keys",
+      "ImagePath": "http://support.yealink.com/upload/phoneModelImg/T41S.jpg",
+      "RetailCost": "169",
+      "DealerPrice": "129.8",
+      "HardwareCategoryID": 1,
+      "ManufacturerDetailsID": 1
+    },
+    {
+      "model": "T19P",
+      "Description": "132x64-pixel graphical LCD Two-port 10/100 Ethernet Switch PoE support,Headset support, Wall Mountable",
+      "ImagePath": "http://www.yealink.com/upfiles/products/201707/1499853576565.jpg",
+      "RetailCost": "169",
+      "DealerPrice": "70.40",
+      "HardwareCategoryID": 1,
+      "ManufacturerDetailsID": 1
+    }
+
+  ]
